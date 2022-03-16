@@ -8,6 +8,8 @@ public class  CreateOrgTest {
 	public void createOrg()
 	{
 		System.out.println("This is the first create org");
+		String BROWSER = System.getProperty("browser");
+		System.out.println(BROWSER);
 	}
 	
 	@Test
