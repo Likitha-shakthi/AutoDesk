@@ -9,7 +9,12 @@ public class  CreateOrgTest {
 	{
 		System.out.println("This is the first create org");
 		String BROWSER = System.getProperty("browser");
+		String USERNAME = System.getProperty("username");
 		System.out.println(BROWSER);
+		System.out.println(USERNAME);
+		
+		
+		
 	}
 	
 	@Test
